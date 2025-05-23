@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backendnya",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.cjs",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "author": "res",
+  "license": "ISC"
+}
